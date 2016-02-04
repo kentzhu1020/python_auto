@@ -1,0 +1,154 @@
+2016-02-03 11:16	[-] Error occur @login_as
+2016-02-03 11:16	[-] Error is Message: Could not find element: {"using":"id","value":"id_net_id"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ITMAC-5.local', ip: '10.75.146.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.2, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+*** Element info: {Using=id, value=id_net_id}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:647)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:353)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementById (RemoteWebDriver.java:403)
+    at org.openqa.selenium.By$ById.findElement (By.java:218)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:345)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:102)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:187)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2016-02-03 11:16	[+] Kill the running selenium process
+2016-02-03 11:36	[+] Kill the running selenium process
+2016-02-03 11:36	[-] Error occur @login_as
+2016-02-03 11:36	[-] Error is Message: Could not find element: {"using":"id","value":"id_net_id"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 99 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ITMAC-5.local', ip: '10.75.146.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.2, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+*** Element info: {Using=id, value=id_net_id}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:647)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:353)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementById (RemoteWebDriver.java:403)
+    at org.openqa.selenium.By$ById.findElement (By.java:218)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:345)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:102)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:187)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2016-02-03 11:36	[+] Kill the running selenium process
+2016-02-03 12:02	[-] Error occur @login_as
+2016-02-03 12:02	[-] Error is Message: Could not find element: {"using":"id","value":"id_net_id"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ITMAC-5.local', ip: '10.75.146.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.2, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+*** Element info: {Using=id, value=id_net_id}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:647)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:353)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementById (RemoteWebDriver.java:403)
+    at org.openqa.selenium.By$ById.findElement (By.java:218)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:345)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:102)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:187)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2016-02-03 12:02	[+] Kill the running selenium process
+2016-02-03 12:12	[-] Error occur @login_as
+2016-02-03 12:12	[-] Error is Message: Could not find element: {"using":"id","value":"id_net_id"} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'ITMAC-5.local', ip: '10.75.146.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.2, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+*** Element info: {Using=id, value=id_net_id}
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:647)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:353)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementById (RemoteWebDriver.java:403)
+    at org.openqa.selenium.By$ById.findElement (By.java:218)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:345)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:102)
+    at com.sun.proxy.$Proxy1.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:187)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:1)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2016-02-03 12:12	[+] Kill the running selenium process
+2016-02-03 13:08	[+] Kill the running selenium process

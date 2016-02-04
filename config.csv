@@ -1,0 +1,8 @@
+ID,TestSuite,ToBeExecuted,Application,Owner
+1,testSuite_smoke,,MyApp,kent.zhu@blackboard.com
+2,testSuite_module_A,,MyApp,
+3,testSuite_module_B,,MyApp,
+4,testSuite_integration,,MyApp,
+5,testSuite_E2E,yes,MyApp,
+6,testSuite_compatibility_safari,,MyApp,
+7,testSuite_security,,MyApp,
