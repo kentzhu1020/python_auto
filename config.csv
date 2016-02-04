@@ -1,5 +1,5 @@
 ID,TestSuite,ToBeExecuted,Application,Owner
-1,testSuite_smoke,,MyApp,kent.zhu@blackboard.com
+1,testSuite_smoke,,MyApp,
 2,testSuite_module_A,,MyApp,
 3,testSuite_module_B,,MyApp,
 4,testSuite_integration,,MyApp,
