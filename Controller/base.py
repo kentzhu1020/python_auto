@@ -98,6 +98,9 @@ class Base(object):
         self.driver.get_screenshot_as_file(full_path)
         return full_path
 
+    def click_and_hold(self,driver,elem):
+        ActionChains(driver).click_and_hold(elem).perform()
+
     def right_click_on_menu(self,driver,elem,index):
         if index ==1:
             pass
@@ -114,6 +117,11 @@ class Base(object):
     def move_to_element_by_js(self,driver,target):
         mouseOverScript = "if(document.createEvent){var evObj = document.createEvent('MouseEvents');evObj.initEvent('mouseover', true, false); arguments[0].dispatchEvent(evObj);} else if(document.createEventObject) { arguments[0].fireEvent('onmouseover');}"
         driver.execute_script(mouseOverScript,target)
+
+
+    def click_element_by_js(self,driver,target):
+        driver.execute_script("if(document.createEvent){var evObj = document.createEvent('MouseEvents');evObj.initEvent('click', true, false); arguments[0].dispatchEvent(evObj);} else if(document.createEventObject) { arguments[0].fireEvent('onclick');}",target)
+
 
     def quit(self,browser=''):
         self.driver.quit()
