@@ -1,7 +1,7 @@
 __author__ = 'kzhu'
 
 const = {
-    'username' : 'kzhu',
-    'password' : 'Black@2',
-    'url'      : 'bbcerts.bbpd.io',
+    'username' : 'YOUR-USERNAME',
+    'password' : 'YOUR-PASSWORD',
+    'url'      : 'YOUR-OWN-URL',
 }
