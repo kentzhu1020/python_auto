@@ -146,7 +146,6 @@ class EndToEndModule(__init__):
     def test_request_cert_by_uploading(self):
         BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         try:
-            self.DRIVER.login_as('kzhu','Black@2')
             self.DRIVER.navigate_to_sub_links('SSL Multi Domain Certificates')
             self.DRIVER.input_data_by_upload_SSLMDC_safari('Comodo','Security',BASE_DIR+'/Data/server.csr',42,3,'testsasasasasasasasasasasa','abc.test.com')
             self.DRIVER.navigate_to_help()
