@@ -57,7 +57,7 @@ class SmokeTestSuite(__init__):
 
     def test_search(self):
         try:
-            self.DRIVER.login_as('kzhu','Black@1')
+            self.DRIVER.login_as('YOUR-USERNAME','YOUR-PASSWORD')
             self.DRIVER.navigate_to_view_cert()
             self.assertEqual(self.DRIVER.get_title(),'View Certificate')
             self.DRIVER.search()
